@@ -2,8 +2,8 @@
 
 while True:
     try:
-        countryNameOne = input("Enter Country Name: India or USA or Japan: ")
-        countryNameTwo = input("Enter Country Name: India or USA or Japan: ")
+        countryNameOne = input("Enter Country Name: India,USA or Japan: ")
+        countryNameTwo = input("Enter Country Name: India,USA or Japan: ")
         input1 = float(input("Enter Currency: "))
         if countryNameOne == 'India' and countryNameTwo == 'USA':
             indianUser = input1 * 0.014
